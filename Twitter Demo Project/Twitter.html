@@ -1,0 +1,253 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone - Final</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+  </head>
+  <body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <a class="x">𝕏</a>
+      <div class="sidebarOption active">
+
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons x1"> 𝕏 </span>
+        <h2>Verified</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <a href="profile.html" class="anchor"><h2>Profile</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Post</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed__header">
+        <h2>Home</h2>
+      
+    <div class="foru">
+      <div><h2>For you</h2></div>
+      <div><h2>Following</h2></div>
+    </div>
+    </div>
+
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img
+              src="x.jpg"
+              alt=""
+            />
+            <input type="text" placeholder="What's happening?" />
+      
+          <button class="tweetBox__tweetButton">Post</button>
+        </div>
+        </form>
+      </div>
+      <!-- tweetbox ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="12.jpeg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Prankul Singhal
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@singhalps</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Harley-Davidson Custom 1250</p>
+            </div>
+          </div>
+          <img
+            src="harley.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <i class="fa-regular fa-message"></i> <p class="post_x">507</p>
+            <i class="fa-solid fa-retweet"></i> <p class="post_x">2000</p>
+            <i class="fa-regular fa-heart"></i> <p class="post_x">30k</p>
+            <i class="fa-solid fa-chart-column"></i></i> <p class="post_x">200k</p>
+            <i class="fa-solid fa-download"></i>
+            
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="isro.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                ISRO
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@isro</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Chandrayaan-3 Mission:</p>
+            </div>
+          </div>
+          <img
+            src="chand.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <i class="fa-regular fa-message"></i> <p class="post_x">70k</p>
+            <i class="fa-solid fa-retweet"></i> <p class="post_x">230k</p>
+            <i class="fa-regular fa-heart"></i> <p class="post_x">1.9M</p>
+            <i class="fa-solid fa-chart-column"></i> <p class="post_x">30M</p>
+            <i class="fa-solid fa-download"></i>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+            <!-- post starts -->
+            <div class="post">
+              <div class="post__avatar">
+                <img
+                  src="virendra.jpg"
+                  alt=""
+                />
+              </div>
+      
+              <div class="post__body">
+                <div class="post__header">
+                  <div class="post__headerText">
+                    <h3>
+                      Virender Sehwag
+
+                      <span class="post__headerSpecial"
+                        ><span class="material-icons post__badge"> verified </span>@virendersehwag</span
+                      >
+                    </h3>
+                  </div>
+                  <div class="post__headerDescription">
+                    <div class="virendra"><p>Fenkon toh aise fenko ki chaar log bole Kya fekta hai yaar.
+
+                      88.17 mtr door Bhaala phenka and a World Athletics Championship Gold for our Champion #NeerajChopra .  The mega run continues .</p></div>
+                  </div>
+                </div>
+                <video src="Neeraj.mp4" controls autoplay  style="border-radius: 30px;width: 500px; height: 270px;"></video>
+                <div class="post__footer">
+                  <i class="fa-regular fa-message"></i> <p class="post_x">10k</p>
+                  <i class="fa-solid fa-retweet"></i> <p class="post_x">40k</p>
+                  <i class="fa-regular fa-heart"></i> <p class="post_x">360K</p>
+                  <i class="fa-solid fa-chart-column"></i></i> <p class="post_x">200k</p>
+                  <i class="fa-solid fa-download"></i>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- post ends -->
+      
+    </div>
+    <div class="widgets">
+      <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon"> search </span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+
+      <div class="widgets__widgetContainer">
+        <h1>What's happening?</h1>
+        <br>
+        <blockquote class="twitter-tweet">
+          <div class="photo">
+          <div>
+            <h5>MLB - This morning</h5> 
+            <h2>Cardinals at Phillies</h2>
+          </div>
+          <div  id="pht">
+            <img src="OIP.jpg" alt="" style="height: 60px; width: 60px; border-radius: 5px;" >
+          </div>
+         
+          </div><br>
+          <div>
+            <h5>Entertainment - Trending </h5> 
+            <h2>#NotRamaiyaVastavaiya</h2>
+            <h5>22.7k posts</h5>
+          </div><br>
+          <div>
+            <h5>Science - Trending</h5> 
+            <h2>ISRO</h2>
+            <h5>1.9M posts</h5>
+          </div><br>
+          <div>
+            <h5>Entertainment - Trending</h5> 
+            <h2>#SalaarTrailer</h2>
+            <h5>23.6k posts</h5>
+          </div><br>
+          
+          <span style="color: blue;">Show more</span>
+        </blockquote>
+        
+      </div>
+    </div>
+
+  </body>
+</html>

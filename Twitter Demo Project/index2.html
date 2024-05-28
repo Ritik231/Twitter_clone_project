@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+  <!-- sidebar starts -->
+  <div class="sidebar">
+    <i class="fab fa-twitter"></i>
+    <div class="sidebarOption active">
+      <span class="material-icons"> home </span>
+      <h2>Home</h2>
+    </div>
+
+    <div class="sidebarOption">
+      <span class="material-icons"> search </span>
+      <h2>Explore</h2>
+    </div>
+
+    <div class="sidebarOption">
+      <span class="material-icons"> notifications_none </span>
+      <h2>Notifications</h2>
+    </div>
+
+    <div class="sidebarOption">
+      <span class="material-icons"> mail_outline </span>
+      <h2>Messages</h2>
+    </div>
+
+    <div class="sidebarOption">
+      <span class="material-icons"> bookmark_border </span>
+      <h2>Bookmarks</h2>
+    </div>
+
+    <div class="sidebarOption">
+      <span class="material-icons"> list_alt </span>
+      <h2>Lists</h2>
+    </div>
+
+    <div class="sidebarOption">
+      <span class="material-icons"> perm_identity </span>
+      <h2>Profile</h2>
+    </div>
+
+    <button class="sidebar__tweet">Tweet</button>
+  </div>
+  <!-- sidebar ends -->
+
+  <!-- feed starts -->
+  <div class="feed">
+    <div class="feed__header">
+      <h2>Home</h2>
+      <div class="foru">
+        <div><h2>For you</h2></div>
+        <div><h2>Following</h2></div>
+      </div>
+    </div>
+
+    <!-- tweetbox starts -->
+    <div class="tweetBox">
+      <form>
+        <div class="tweetbox__input">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXpI4GrT2x472nahw6NJn91c3lZS2w5wh8KQ&usqp=CAU" alt="" />
+          <input type="text" id="postInput" placeholder="What's happening?" />
+        </div>
+        <button class="tweetBox__tweetButton" id="postButton">Tweet</button>
+        <ul id="postList"></ul>
+      </form>
+    </div>
+    <!-- tweetbox ends -->
+
+    <!-- post starts -->
+    <div class="middle-section">
+
+      <div class="post">
+        <div class="post__avatar">
+          <img src="Tom_Holland_by_Gage_Skidmore.jpg" alt="" />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Tom Holland 
+                <span class="post_headerSpecial"><span class="material-icons post__badge"> verified
+                  </span>@Tommy</span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>WATCH SPIDERMAN HOMECOMING IN YOUR NEAR CINEMAS.</p>
+            </div>
+          </div>
+          <img src="tommy.jpg" alt="" />
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img src="taylor.png" alt="" />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Taylor Swift 
+                <span class="post_headerSpecial"><span class="material-icons post__badge"> verified
+                  </span>@taylorswift</span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Hello guys how are you doing ?</p>
+            </div>
+          </div>
+          <img src="https://picsum.photos/1920/1080" alt="" />
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+          <div class="delete">
+            <!-- <button>Delete</button> -->
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+    </div>
+  </div>
+  <!-- feed ends -->
+
+  <!-- widgets starts -->
+  <div class="widgets">
+    <div class="widgets__input">
+      <span class="material-icons widgets__searchIcon"> search </span>
+      <input type="text" placeholder="Search Twitter" />
+    </div>
+
+    <div class="widgets__widgetContainer">
+      <h2 style="font-size:25px; font-family: sans-serif;">What's happening?</h2>
+      <br>
+      <blockquote class="twitter-tweet">
+        <div class="photo">
+        <div>
+          <h5>India Today - this morning </h5> 
+          <h4>Gold for India.</h>
+        </div>
+        <div  id="pht">
+          <img src="neer.avif" alt="" style="height: 60px; width: 60px; border-radius: 5px;" >
+        </div>
+       
+        </div><br>
+        <div>
+          <h5>Sports - Trending </h5> 
+          <h4>#Ind vs Pak</h4>
+          <h5>22.7M posts</h5>
+        </div><br>
+        <div>
+          <h5>Science - Trending</h5> 
+          <h4>ISRO</h4>
+          <h5>1.9M posts</h5>
+        </div><br>
+        <div>
+          <h5>Entertainment - Trending</h5> 
+          <h4>#SRK Come_back</h4>
+          <h5>23.6k posts</h5>
+        </div><br>
+        
+        <span style="color: rgb(31, 109, 245);">Show more</span>
+      </blockquote>
+      
+    </div>
+    <div class="widgets__widgetContainer">
+        <h2 style="font-size:25px; font-family: sans-serif;">Who to follow</h2>
+        <br>
+        <blockquote class="twitter-tweet">
+          <div class="photo2">
+            <div >
+                <img src="https://i.pinimg.com/474x/f5/1d/0a/f51d0a59def3381376fbbb99fb7c4825.jpg" alt="" class="ph2">
+              </div>
+          <div class="follow">
+            <h4>Virat Kohli</h4> 
+            <h5 >  @virat.kohli</h5>
+            
+          </div>
+          <div><img src="VER.png" alt="" class="ph3"></div>
+          <div class="btn"><button class="flbtn" s > <a href="https://twitter.com/imVkohli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Follow</a></button></div>
+        </div>
+
+          <div class="photo2">
+            <div  >
+                <img src="modi.jpg" alt=""  class="ph2">
+              </div>
+          <div class="follow">
+            <h4>Narendra Modi</h4> 
+            <h5>@Narendramodi</h5>
+          </div>
+          <div><img src="VER.png" alt="" class="ph3"></div>
+          <div class="btn"><button class="flbtn"> <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> Follow</a></button></div>
+        </div>
+          <span style="color: rgb(31, 109, 245);">Show more</span>
+        </blockquote>
+        
+      </div>
+  
+
+    
+  </div>
+  <script src="script.js"></script>
+  <!-- widgets ends -->
+</body>
+
+</html>

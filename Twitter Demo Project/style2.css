@@ -1,0 +1,96 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    
+  }
+  .foru{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  .feed__header h2{
+    margin-bottom: 10px;
+  }
+  
+  .foru div {
+    align-items: center;
+   padding-left: 90px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    height: 45px;
+    width: 300px;
+  }
+
+  .foru  :hover{
+    background-color: #e6ecf0;
+  }
+ 
+  .twitter-tweet div:hover{
+    background-color: #e6ecf0;
+  }
+ 
+  .twitter-tweet div{
+    margin: 5px;
+
+    font-family:  sans-serif;
+  }
+
+  .photo{
+    display: flex;
+  }
+
+  #pht{
+    margin-left: 40px;
+  }
+
+  .twitter-tweet h5{
+    color: rgb(70, 69, 69);
+  }
+
+  
+  .ph2{
+   height: 50px;
+   width: 50px;
+   border-radius: 70px;
+
+  }
+  .photo2{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .follow h4{
+    font-size: 14px;
+  }
+  .flbtn{
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+   background-color:white;
+   
+  }
+
+  .flbtn:hover{
+    background-color:  #50b7f5;
+    color: white;
+  }
+  .ph3{
+    height: 20px;
+    width: 20px;
+  }
+  
